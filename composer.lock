@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4591de31a1edd61647dd7b086e37860d",
+    "content-hash": "3daecc9d7e8e40685f64c771fac7f85d",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -168,6 +168,453 @@
             "time": "2018-03-26T11:24:36+00:00"
         },
         {
+            "name": "dmitriikoziuk/yii2-base",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/yii2-base.git",
+                "reference": "e21784d4ae2fe19f8507cbcb67c1128de3336db3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-base/zipball/e21784d4ae2fe19f8507cbcb67c1128de3336db3",
+                "reference": "e21784d4ae2fe19f8507cbcb67c1128de3336db3",
+                "shasum": ""
+            },
+            "require": {
+                "dmitriikoziuk/yii2-module-manager": "~0.2.0",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2Base\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2Base\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Base library and foundation components for all Yii2 dmitriikoziuk extensions.",
+            "keywords": [
+                "dmitriikoziuk",
+                "extension",
+                "yii2"
+            ],
+            "time": "2019-02-12T10:02:02+00:00"
+        },
+        {
+            "name": "dmitriikoziuk/yii2-config-manager",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/yii2-config-manager.git",
+                "reference": "6c29cbb71afeeb46a5e10066e029b54e773aa049"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-config-manager/zipball/6c29cbb71afeeb46a5e10066e029b54e773aa049",
+                "reference": "6c29cbb71afeeb46a5e10066e029b54e773aa049",
+                "shasum": ""
+            },
+            "require": {
+                "dmitriikoziuk/yii2-base": "~0.2.0",
+                "dmitriikoziuk/yii2-module-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-web-backend-lock": "~0.1.0",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2ConfigManager\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2ConfigManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This module allow storing configuration parameters to config files and management they dynamically from admin panel.",
+            "keywords": [
+                "config manager",
+                "extension",
+                "yii2"
+            ],
+            "time": "2019-02-12T10:08:11+00:00"
+        },
+        {
+            "name": "dmitriikoziuk/yii2-custom-urls",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/yii2-custom-urls.git",
+                "reference": "951d7fc20de6ad0621dd7e8c398fd2760ab6f7a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-custom-urls/zipball/951d7fc20de6ad0621dd7e8c398fd2760ab6f7a6",
+                "reference": "951d7fc20de6ad0621dd7e8c398fd2760ab6f7a6",
+                "shasum": ""
+            },
+            "require": {
+                "dmitriikoziuk/yii2-base": "~0.2.0",
+                "dmitriikoziuk/yii2-config-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-module-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-web-backend-lock": "~0.1.0",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2CustomUrls\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2CustomUrls\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Custom urls yii2 extension",
+            "keywords": [
+                "custom url",
+                "extension",
+                "url index",
+                "yii2"
+            ],
+            "time": "2019-02-12T11:09:47+00:00"
+        },
+        {
+            "name": "dmitriikoziuk/yii2-file-manager",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/yii2-file-manager.git",
+                "reference": "f8b4886cd3626c382ff9b895b9e23ad30630e23e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-file-manager/zipball/f8b4886cd3626c382ff9b895b9e23ad30630e23e",
+                "reference": "f8b4886cd3626c382ff9b895b9e23ad30630e23e",
+                "shasum": ""
+            },
+            "require": {
+                "dmitriikoziuk/yii2-base": "~0.2.0",
+                "dmitriikoziuk/yii2-config-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-module-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-web-backend-lock": "~0.1.0",
+                "ext-fileinfo": "*",
+                "ext-imagick": "^3.0.0",
+                "kartik-v/yii2-widget-fileinput": "@dev",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0",
+                "yiisoft/yii2-imagine": "~2.1.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2FileManager\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2FileManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "yii2 file manager extension",
+            "keywords": [
+                "Upload files",
+                "extension",
+                "file manager",
+                "upload images",
+                "yii2"
+            ],
+            "time": "2019-02-12T11:18:15+00:00"
+        },
+        {
+            "name": "dmitriikoziuk/yii2-module-manager",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/yii2-module-manager.git",
+                "reference": "12f6c9ea51d38e92c1844892f344886385b2a9cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-module-manager/zipball/12f6c9ea51d38e92c1844892f344886385b2a9cd",
+                "reference": "12f6c9ea51d38e92c1844892f344886385b2a9cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2ModuleManager\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2ModuleManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "yii2 module manager",
+            "keywords": [
+                "Module Manager",
+                "extension",
+                "yii2"
+            ],
+            "time": "2019-02-12T09:54:19+00:00"
+        },
+        {
+            "name": "dmitriikoziuk/yii2-pages",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/dmitriikoziuk-yii2-pages.git",
+                "reference": "f830199fbd0b9f24382173bb06e66f294e3c8aca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/dmitriikoziuk-yii2-pages/zipball/f830199fbd0b9f24382173bb06e66f294e3c8aca",
+                "reference": "f830199fbd0b9f24382173bb06e66f294e3c8aca",
+                "shasum": ""
+            },
+            "require": {
+                "dmitriikoziuk/yii2-base": "~0.2.0",
+                "dmitriikoziuk/yii2-config-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-custom-urls": "~0.2.0",
+                "dmitriikoziuk/yii2-module-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-web-backend-lock": "~0.1.0",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2Pages\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2Pages\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Yii2 pages.",
+            "keywords": [
+                "pages",
+                "yii2"
+            ],
+            "time": "2019-02-12T11:21:47+00:00"
+        },
+        {
+            "name": "dmitriikoziuk/yii2-shop",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/yii2-shop.git",
+                "reference": "4142148eabaf5a4d66020a85cd79d4743375a9ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-shop/zipball/4142148eabaf5a4d66020a85cd79d4743375a9ac",
+                "reference": "4142148eabaf5a4d66020a85cd79d4743375a9ac",
+                "shasum": ""
+            },
+            "require": {
+                "dmitriikoziuk/yii2-base": "~0.2.0",
+                "dmitriikoziuk/yii2-config-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-custom-urls": "~0.2.0",
+                "dmitriikoziuk/yii2-file-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-module-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-user-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-web-backend-lock": "~0.1.0",
+                "kartik-v/yii2-widget-select2": "@dev",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0",
+                "yiisoft/yii2-queue": "~2.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2Shop\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2Shop\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Yii2 shop.",
+            "keywords": [
+                "shop",
+                "yii2"
+            ],
+            "time": "2019-02-12T11:26:31+00:00"
+        },
+        {
+            "name": "dmitriikoziuk/yii2-user-manager",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/yii2-user-manager.git",
+                "reference": "755f7c8ead32414492ef127396e48657b53e4985"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-user-manager/zipball/755f7c8ead32414492ef127396e48657b53e4985",
+                "reference": "755f7c8ead32414492ef127396e48657b53e4985",
+                "shasum": ""
+            },
+            "require": {
+                "dmitriikoziuk/yii2-base": "~0.2.0",
+                "dmitriikoziuk/yii2-config-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-module-manager": "~0.2.0",
+                "dmitriikoziuk/yii2-web-backend-lock": "~0.1.0",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2UserManager\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2UserManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Yii2 user manager.",
+            "keywords": [
+                "user manager",
+                "yii2"
+            ],
+            "time": "2019-02-12T10:42:21+00:00"
+        },
+        {
+            "name": "dmitriikoziuk/yii2-web-backend-lock",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DmitriiKoziuk/yii2-web-backend-lock.git",
+                "reference": "682990584bc128b9c0d23ce2cab6d5d721ca62b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-web-backend-lock/zipball/682990584bc128b9c0d23ce2cab6d5d721ca62b0",
+                "reference": "682990584bc128b9c0d23ce2cab6d5d721ca62b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "DmitriiKoziuk\\yii2WebBackendLock\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DmitriiKoziuk\\yii2WebBackendLock\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitrii Koziuk",
+                    "email": "dmitriikoziuk@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Redirect all not authenticated web user to login page.",
+            "keywords": [
+                "backend lock",
+                "yii2"
+            ],
+            "time": "2019-02-11T13:53:22+00:00"
+        },
+        {
             "name": "doctrine/lexer",
             "version": "v1.0.1",
             "source": {
@@ -326,6 +773,277 @@
             "time": "2018-02-23T01:58:20+00:00"
         },
         {
+            "name": "imagine/imagine",
+            "version": "v0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avalanche123/Imagine.git",
+                "reference": "a9a702a946073cbca166718f1b02a1e72d742daa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/a9a702a946073cbca166718f1b02a1e72d742daa",
+                "reference": "a9a702a946073cbca166718f1b02a1e72d742daa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "sami/sami": "^3.3",
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Imagine": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
+                }
+            ],
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
+            "keywords": [
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
+            ],
+            "time": "2017-05-16T10:31:22+00:00"
+        },
+        {
+            "name": "kartik-v/bootstrap-fileinput",
+            "version": "v4.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
+                "reference": "80ea0aae52406911519c602978e4e51150c7bab7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/80ea0aae52406911519c602978e4e51150c7bab7",
+                "reference": "80ea0aae52406911519c602978e4e51150c7bab7",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "kartik\\plugins\\fileinput\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "An enhanced HTML 5 file input for Bootstrap 3.x with features for file preview for many file types, multiple selection, ajax uploads, and more.",
+            "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
+            "keywords": [
+                "ajax",
+                "bootstrap",
+                "delete",
+                "file",
+                "image",
+                "input",
+                "jquery",
+                "multiple",
+                "preview",
+                "progress",
+                "upload"
+            ],
+            "time": "2019-01-03T02:58:32+00:00"
+        },
+        {
+            "name": "kartik-v/yii2-krajee-base",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-krajee-base.git",
+                "reference": "ec7fc2c5ed76ee29c939ed6fe33bab76eb25499c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/ec7fc2c5ed76ee29c939ed6fe33bab76eb25499c",
+                "reference": "ec7fc2c5ed76ee29c939ed6fe33bab76eb25499c",
+                "shasum": ""
+            },
+            "suggest": {
+                "yiisoft/yii2-bootstrap": "for Krajee extensions to work with Bootstrap 3.x version",
+                "yiisoft/yii2-bootstrap4": "for Krajee extensions to work with Bootstrap 4.x version"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "kartik\\base\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "Base library and foundation components for all Yii2 Krajee extensions.",
+            "homepage": "https://github.com/kartik-v/yii2-krajee-base",
+            "keywords": [
+                "base",
+                "extension",
+                "foundation",
+                "krajee",
+                "widget",
+                "yii2"
+            ],
+            "time": "2018-12-04T03:40:27+00:00"
+        },
+        {
+            "name": "kartik-v/yii2-widget-fileinput",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-widget-fileinput.git",
+                "reference": "7f76d784cc48733746ff90b53b8474dcf48ea6c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-fileinput/zipball/7f76d784cc48733746ff90b53b8474dcf48ea6c4",
+                "reference": "7f76d784cc48733746ff90b53b8474dcf48ea6c4",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/bootstrap-fileinput": "~4.4",
+                "kartik-v/yii2-krajee-base": ">=1.9"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "kartik\\file\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "An enhanced FileInput widget for Bootstrap 3.x & 4.x with file preview, multiple selection, and more features (sub repo split from yii2-widgets)",
+            "homepage": "https://github.com/kartik-v/yii2-widget-fileinput",
+            "keywords": [
+                "extension",
+                "file",
+                "form",
+                "input",
+                "jquery",
+                "plugin",
+                "upload",
+                "widget",
+                "yii2"
+            ],
+            "time": "2018-09-19T13:09:42+00:00"
+        },
+        {
+            "name": "kartik-v/yii2-widget-select2",
+            "version": "v2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-widget-select2.git",
+                "reference": "f1ae98b7ec3e46ba0193471647ce15d07aa67f58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-select2/zipball/f1ae98b7ec3e46ba0193471647ce15d07aa67f58",
+                "reference": "f1ae98b7ec3e46ba0193471647ce15d07aa67f58",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/yii2-krajee-base": ">=1.9"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "kartik\\select2\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "Enhanced Yii2 wrapper for the Select2 jQuery plugin (sub repo split from yii2-widgets).",
+            "homepage": "https://github.com/kartik-v/yii2-widget-select2",
+            "keywords": [
+                "dropdown",
+                "extension",
+                "form",
+                "jquery",
+                "plugin",
+                "select2",
+                "widget",
+                "yii2"
+            ],
+            "time": "2018-09-07T08:11:16+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.1.3",
             "source": {
@@ -383,6 +1101,55 @@
                 "mailer"
             ],
             "time": "2018-09-11T07:12:52+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v4.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "6c05edb11fbeff9e2b324b4270ecb17911a8b7ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/6c05edb11fbeff9e2b324b4270ecb17911a8b7ad",
+                "reference": "6c05edb11fbeff9e2b324b4270ecb17911a8b7ad",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-01-24T22:05:03+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -597,6 +1364,138 @@
                 "yii2"
             ],
             "time": "2018-07-05T15:44:47+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-imagine",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-imagine.git",
+                "reference": "a8a1a068862a86e3395e665bc86e63d5c9b60841"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-imagine/zipball/a8a1a068862a86e3395e665bc86e63d5c9b60841",
+                "reference": "a8a1a068862a86e3395e665bc86e63d5c9b60841",
+                "shasum": ""
+            },
+            "require": {
+                "imagine/imagine": "~0.6.0 | ~0.7.1",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\imagine\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "amigo.cobos@gmail.com"
+                }
+            ],
+            "description": "The Imagine integration for the Yii framework",
+            "keywords": [
+                "helper",
+                "image",
+                "imagine",
+                "yii2"
+            ],
+            "time": "2018-02-22T11:57:06+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-queue",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-queue.git",
+                "reference": "d04b4b3c932081200876a351cc6c3502e89e11b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-queue/zipball/d04b4b3c932081200876a351cc6c3502e89e11b8",
+                "reference": "d04b4b3c932081200876a351cc6c3502e89e11b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "symfony/process": "*",
+                "yiisoft/yii2": "~2.0.14"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": ">=2.4",
+                "enqueue/amqp-lib": "^0.8",
+                "jeremeamia/superclosure": "*",
+                "pda/pheanstalk": "*",
+                "php-amqplib/php-amqplib": "*",
+                "phpunit/phpunit": "~4.4",
+                "yiisoft/yii2-debug": "*",
+                "yiisoft/yii2-gii": "*",
+                "yiisoft/yii2-redis": "*"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Need for aws SQS.",
+                "enqueue/amqp-lib": "Need for AMQP interop queue.",
+                "ext-gearman": "Need for Gearman queue.",
+                "ext-pcntl": "Need for process signals.",
+                "pda/pheanstalk": "Need for Beanstalk queue.",
+                "php-amqplib/php-amqplib": "Need for AMQP queue.",
+                "yiisoft/yii2-redis": "Need for Redis queue."
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\queue\\": "src",
+                    "yii\\queue\\amqp\\": "src/drivers/amqp",
+                    "yii\\queue\\amqp_interop\\": "src/drivers/amqp_interop",
+                    "yii\\queue\\beanstalk\\": "src/drivers/beanstalk",
+                    "yii\\queue\\db\\": "src/drivers/db",
+                    "yii\\queue\\file\\": "src/drivers/file",
+                    "yii\\queue\\gearman\\": "src/drivers/gearman",
+                    "yii\\queue\\redis\\": "src/drivers/redis",
+                    "yii\\queue\\sync\\": "src/drivers/sync",
+                    "yii\\queue\\sqs\\": "src/drivers/sqs"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Zhuravlev",
+                    "email": "zhuravljov@gmail.com"
+                }
+            ],
+            "description": "Yii2 Queue Extension which supported DB, Redis, RabbitMQ, Beanstalk, SQS and Gearman",
+            "keywords": [
+                "async",
+                "beanstalk",
+                "db",
+                "gearman",
+                "gii",
+                "queue",
+                "rabbitmq",
+                "redis",
+                "sqs",
+                "yii"
+            ],
+            "time": "2018-05-23T21:04:57+00:00"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -3386,7 +4285,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.4.0"
+        "php": ">=7.1.0"
     },
     "platform-dev": []
 }
