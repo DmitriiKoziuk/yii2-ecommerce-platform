@@ -216,16 +216,16 @@
         },
         {
             "name": "dmitriikoziuk/yii2-config-manager",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-config-manager.git",
-                "reference": "6c29cbb71afeeb46a5e10066e029b54e773aa049"
+                "reference": "1c2d5750dec0c8dd9fca43dd66900159dc6a9637"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-config-manager/zipball/6c29cbb71afeeb46a5e10066e029b54e773aa049",
-                "reference": "6c29cbb71afeeb46a5e10066e029b54e773aa049",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-config-manager/zipball/1c2d5750dec0c8dd9fca43dd66900159dc6a9637",
+                "reference": "1c2d5750dec0c8dd9fca43dd66900159dc6a9637",
                 "shasum": ""
             },
             "require": {
@@ -261,7 +261,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2019-02-12T10:08:11+00:00"
+            "time": "2019-02-13T16:24:29+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-custom-urls",
