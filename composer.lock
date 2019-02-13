@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3daecc9d7e8e40685f64c771fac7f85d",
+    "content-hash": "fd952f0c1323963640ccb1026a40f913",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -418,16 +418,16 @@
         },
         {
             "name": "dmitriikoziuk/yii2-pages",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/dmitriikoziuk-yii2-pages.git",
-                "reference": "f830199fbd0b9f24382173bb06e66f294e3c8aca"
+                "reference": "12f3c138811fb4fb0ff3e6ef8903282fbc38df32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/dmitriikoziuk-yii2-pages/zipball/f830199fbd0b9f24382173bb06e66f294e3c8aca",
-                "reference": "f830199fbd0b9f24382173bb06e66f294e3c8aca",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/dmitriikoziuk-yii2-pages/zipball/12f3c138811fb4fb0ff3e6ef8903282fbc38df32",
+                "reference": "12f3c138811fb4fb0ff3e6ef8903282fbc38df32",
                 "shasum": ""
             },
             "require": {
@@ -464,20 +464,20 @@
                 "pages",
                 "yii2"
             ],
-            "time": "2019-02-12T11:21:47+00:00"
+            "time": "2019-02-12T15:08:23+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-shop",
-            "version": "0.2.1",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-shop.git",
-                "reference": "4142148eabaf5a4d66020a85cd79d4743375a9ac"
+                "reference": "660c1aca51ba999bbd321834d06d90b232b3c26d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-shop/zipball/4142148eabaf5a4d66020a85cd79d4743375a9ac",
-                "reference": "4142148eabaf5a4d66020a85cd79d4743375a9ac",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-shop/zipball/660c1aca51ba999bbd321834d06d90b232b3c26d",
+                "reference": "660c1aca51ba999bbd321834d06d90b232b3c26d",
                 "shasum": ""
             },
             "require": {
@@ -518,7 +518,7 @@
                 "shop",
                 "yii2"
             ],
-            "time": "2019-02-12T11:26:31+00:00"
+            "time": "2019-02-13T15:42:43+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-user-manager",
