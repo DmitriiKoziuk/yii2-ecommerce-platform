@@ -169,16 +169,16 @@
         },
         {
             "name": "dmitriikoziuk/yii2-base",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-base.git",
-                "reference": "e21784d4ae2fe19f8507cbcb67c1128de3336db3"
+                "reference": "2acdbd1a0c339feeef5ab847e30a094b13f35084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-base/zipball/e21784d4ae2fe19f8507cbcb67c1128de3336db3",
-                "reference": "e21784d4ae2fe19f8507cbcb67c1128de3336db3",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-base/zipball/2acdbd1a0c339feeef5ab847e30a094b13f35084",
+                "reference": "2acdbd1a0c339feeef5ab847e30a094b13f35084",
                 "shasum": ""
             },
             "require": {
@@ -212,7 +212,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2019-02-12T10:02:02+00:00"
+            "time": "2019-02-14T17:03:01+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-config-manager",
@@ -265,16 +265,16 @@
         },
         {
             "name": "dmitriikoziuk/yii2-custom-urls",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-custom-urls.git",
-                "reference": "951d7fc20de6ad0621dd7e8c398fd2760ab6f7a6"
+                "reference": "e64fad73214d1af25520cb89ff5b859e5de26120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-custom-urls/zipball/951d7fc20de6ad0621dd7e8c398fd2760ab6f7a6",
-                "reference": "951d7fc20de6ad0621dd7e8c398fd2760ab6f7a6",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-custom-urls/zipball/e64fad73214d1af25520cb89ff5b859e5de26120",
+                "reference": "e64fad73214d1af25520cb89ff5b859e5de26120",
                 "shasum": ""
             },
             "require": {
@@ -312,20 +312,20 @@
                 "url index",
                 "yii2"
             ],
-            "time": "2019-02-12T11:09:47+00:00"
+            "time": "2019-02-14T17:04:59+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-file-manager",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-file-manager.git",
-                "reference": "f8b4886cd3626c382ff9b895b9e23ad30630e23e"
+                "reference": "0aea377e3546b795781e5b03e52e2e445adf653f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-file-manager/zipball/f8b4886cd3626c382ff9b895b9e23ad30630e23e",
-                "reference": "f8b4886cd3626c382ff9b895b9e23ad30630e23e",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-file-manager/zipball/0aea377e3546b795781e5b03e52e2e445adf653f",
+                "reference": "0aea377e3546b795781e5b03e52e2e445adf653f",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +368,7 @@
                 "upload images",
                 "yii2"
             ],
-            "time": "2019-02-12T11:18:15+00:00"
+            "time": "2019-02-14T17:06:50+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-module-manager",
@@ -419,16 +419,16 @@
         },
         {
             "name": "dmitriikoziuk/yii2-pages",
-            "version": "0.2.2",
+            "version": "0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-pages.git",
-                "reference": "12f3c138811fb4fb0ff3e6ef8903282fbc38df32"
+                "reference": "742787f433952fdc31dc45647d1cde478c6171e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-pages/zipball/12f3c138811fb4fb0ff3e6ef8903282fbc38df32",
-                "reference": "12f3c138811fb4fb0ff3e6ef8903282fbc38df32",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-pages/zipball/742787f433952fdc31dc45647d1cde478c6171e6",
+                "reference": "742787f433952fdc31dc45647d1cde478c6171e6",
                 "shasum": ""
             },
             "require": {
@@ -465,20 +465,20 @@
                 "pages",
                 "yii2"
             ],
-            "time": "2019-02-12T15:08:23+00:00"
+            "time": "2019-02-14T17:12:53+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-shop",
-            "version": "0.3.3",
+            "version": "0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-shop.git",
-                "reference": "31c81c8906dbb785ec7542ec0d46b031a1a2ac1d"
+                "reference": "fe2c94e04c63db022c5b99291da603626b3636d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-shop/zipball/31c81c8906dbb785ec7542ec0d46b031a1a2ac1d",
-                "reference": "31c81c8906dbb785ec7542ec0d46b031a1a2ac1d",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-shop/zipball/fe2c94e04c63db022c5b99291da603626b3636d3",
+                "reference": "fe2c94e04c63db022c5b99291da603626b3636d3",
                 "shasum": ""
             },
             "require": {
@@ -520,20 +520,20 @@
                 "shop",
                 "yii2"
             ],
-            "time": "2019-02-14T11:18:48+00:00"
+            "time": "2019-02-14T17:14:41+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-user-manager",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-user-manager.git",
-                "reference": "755f7c8ead32414492ef127396e48657b53e4985"
+                "reference": "9d2144a30064f07ad73738708d53d05bc7eeb745"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-user-manager/zipball/755f7c8ead32414492ef127396e48657b53e4985",
-                "reference": "755f7c8ead32414492ef127396e48657b53e4985",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-user-manager/zipball/9d2144a30064f07ad73738708d53d05bc7eeb745",
+                "reference": "9d2144a30064f07ad73738708d53d05bc7eeb745",
                 "shasum": ""
             },
             "require": {
@@ -569,7 +569,7 @@
                 "user manager",
                 "yii2"
             ],
-            "time": "2019-02-12T10:42:21+00:00"
+            "time": "2019-02-14T17:08:34+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-web-backend-lock",
