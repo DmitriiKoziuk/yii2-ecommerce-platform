@@ -7,6 +7,6 @@ class BaseThemeAsset extends AssetBundle
 {
     public $sourcePath = '@frontend/themes/basic/dist/base';
     public $css = [
-        'css/dk-shop-base.css',
+        'css/base.css',
     ];
 }
