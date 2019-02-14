@@ -36,14 +36,24 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+        'view' => [
+            'theme' => [
+                'basePath' => '@app/themes/basic',
+                'baseUrl' => '@web/themes/basic',
+                'pathMap' => [
+                    '@app/views' => '@app/themes/basic',
+                    '@app/widgets' => '@app/themes/basic/widgets',
+                    '@DmitriiKoziuk/yii2Shop/views/frontend' => '@app/themes/basic/shop/views',
+                    '@DmitriiKoziuk/yii2Shop/widgets/views' => '@app/themes/basic/shop/views/widgets',
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];
