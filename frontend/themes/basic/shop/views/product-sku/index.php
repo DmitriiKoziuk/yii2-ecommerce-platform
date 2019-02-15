@@ -42,6 +42,7 @@ $this->registerLinkTag(['rel' => 'canonical', 'href' => $productSkuData->getUrl(
           <?php endif; ?>
         </div>
         <div class="col-md-6">
+          <?php if($productSkuData->isPriceOnSiteSet()): ?>
           <div class="price">
             <?= number_format(
                 $productSkuData->getPriceOnSite(),
@@ -56,6 +57,7 @@ $this->registerLinkTag(['rel' => 'canonical', 'href' => $productSkuData->getUrl(
               <?= Yii::t(ShopModule::TRANSLATION, 'Buy') ?>
             </a>
           </div>
+          <?php endif; ?>
         </div>
       </div>
     </div>
