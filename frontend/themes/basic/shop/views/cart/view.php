@@ -40,7 +40,7 @@ $this->registerMetaTag([
               </div>
               <div class="form-group col-md-4">
                 <?= $productSku->getFullName() ?> |
-                <?= $productSku->getPrice() ?> x 1
+                <?= $productSku->getPriceOnSite() ?> x 1
               </div>
               <div class="form-group col-md-2">
                 <?= Html::input(
