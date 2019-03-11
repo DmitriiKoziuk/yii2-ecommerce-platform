@@ -1,5 +1,6 @@
 <?php
 
+use frontend\themes\basic\assets\BaseThemeAsset;
 use frontend\themes\basic\shop\assets\ProductWidgetAsset;
 use DmitriiKoziuk\yii2FileManager\helpers\FileWebHelper;
 use DmitriiKoziuk\yii2Shop\ShopModule;
@@ -12,6 +13,8 @@ use DmitriiKoziuk\yii2Shop\ShopModule;
  */
 
 ProductWidgetAsset::register($this);
+$defaultImageUrl = $this->assetManager
+        ->getBundle(BaseThemeAsset::class)->baseUrl . BaseThemeAsset::$defaultImageUrl;
 ?>
 
 <div class="row products">
@@ -26,7 +29,9 @@ ProductWidgetAsset::register($this);
                 <?php if (! empty($product->mainImage)): ?>
                 <img src="<?= $fileWebHelper->getFileFullWebPath(
                     $product->mainImage
-                ) ?>" alt="">
+                ) ?>" alt="<?= $product->getName() . ' ' . $product->mainSku->getName() ?>">
+                <?php else: ?>
+                <img src="<?= $defaultImageUrl ?>" alt="">
                 <?php endif; ?>
               </a>
             </div>

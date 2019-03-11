@@ -469,16 +469,16 @@
         },
         {
             "name": "dmitriikoziuk/yii2-shop",
-            "version": "0.3.10",
+            "version": "0.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DmitriiKoziuk/yii2-shop.git",
-                "reference": "ee6d9f91f633920fe11f76ade09279b0f305fc52"
+                "reference": "1d608d213a75ff10ff8cc792d352169c3cda6676"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-shop/zipball/ee6d9f91f633920fe11f76ade09279b0f305fc52",
-                "reference": "ee6d9f91f633920fe11f76ade09279b0f305fc52",
+                "url": "https://api.github.com/repos/DmitriiKoziuk/yii2-shop/zipball/1d608d213a75ff10ff8cc792d352169c3cda6676",
+                "reference": "1d608d213a75ff10ff8cc792d352169c3cda6676",
                 "shasum": ""
             },
             "require": {
@@ -520,7 +520,7 @@
                 "shop",
                 "yii2"
             ],
-            "time": "2019-03-10T20:06:17+00:00"
+            "time": "2019-03-10T21:54:34+00:00"
         },
         {
             "name": "dmitriikoziuk/yii2-user-manager",
