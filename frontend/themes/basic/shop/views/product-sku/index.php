@@ -42,7 +42,10 @@ $defaultImageUrl = $this->assetManager
       <div class="row">
         <div class="col-md-6 image-section">
           <?php if (! empty($mainImage)): ?>
-          <img src="<?= $fileWebHelper->getFileFullWebPath($mainImage) ?>" alt="">
+          <img
+              src="<?= $fileWebHelper->getFileFullWebPath($mainImage) ?>"
+              alt="<?= $productData->getName() . ' ' . $productSkuData->getName() ?>"
+          >
           <?php else: ?>
           <img src="<?= $defaultImageUrl ?>" alt="">
           <?php endif; ?>
