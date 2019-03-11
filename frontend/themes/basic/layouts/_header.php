@@ -1,9 +1,17 @@
+<?php
+
+/**
+ * @var $this    \yii\web\View
+ * @var $logoUrl string
+ */
+
+?>
 <header>
   <div class="container">
     <div class="row">
       <div class="col-2">
         <a href="/">
-          <img src="/images/logo.png" alt="logo">
+          <img src="<?= $logoUrl ?>" alt="logo">
         </a>
       </div>
       <div class="col-10">
