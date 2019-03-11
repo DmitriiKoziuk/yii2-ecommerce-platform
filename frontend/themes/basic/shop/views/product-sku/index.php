@@ -1,5 +1,6 @@
 <?php
 
+use frontend\themes\basic\assets\BaseThemeAsset;
 use frontend\themes\basic\shop\assets\ProductSkuAsset;
 use DmitriiKoziuk\yii2FileManager\helpers\FileWebHelper;
 use DmitriiKoziuk\yii2Shop\ShopModule;
@@ -27,6 +28,9 @@ $this->registerMetaTag([
     ),
 ]);
 $this->registerLinkTag(['rel' => 'canonical', 'href' => $productSkuData->getUrl()]);
+
+$defaultImageUrl = $this->assetManager
+        ->getBundle(BaseThemeAsset::class)->baseUrl . BaseThemeAsset::$defaultImageUrl;
 ?>
 
 <div class="product-sku">
@@ -38,7 +42,12 @@ $this->registerLinkTag(['rel' => 'canonical', 'href' => $productSkuData->getUrl(
       <div class="row">
         <div class="col-md-6 image-section">
           <?php if (! empty($mainImage)): ?>
-            <img src="<?= $fileWebHelper->getFileFullWebPath($mainImage) ?>" alt="">
+          <img
+              src="<?= $fileWebHelper->getFileFullWebPath($mainImage) ?>"
+              alt="<?= $productData->getName() . ' ' . $productSkuData->getName() ?>"
+          >
+          <?php else: ?>
+          <img src="<?= $defaultImageUrl ?>" alt="">
           <?php endif; ?>
         </div>
         <div class="col-md-6">
